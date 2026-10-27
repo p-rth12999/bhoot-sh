@@ -1,0 +1,354 @@
+{
+  "stack_overflow_copy": {
+    "short": [
+      "Ctrl C, Ctrl V. Wah, engineer.",
+      "Khud thoda type karle, bhai.",
+      "Photocopy machine ban gaya hai tu."
+    ],
+    "medium": [
+      "Stack Overflow wale bhaiya ko salary de de, project toh unhone hi likha hai.",
+      "Copy kar liya, ab samajhne ka subscription bhi le le, bhai.",
+      "Bas kar bhai, itne copy paste toh maine pichhli zindagi mein bhi nahi kiye."
+    ],
+    "long": [
+      "Kya code likha hai tatti! Aur ruk, yeh toh tune likha hi nahi. Internet se churaaya hai, comment tak nahi padha.",
+      "Mera past life yaad aa gaya. Tab hum documentation padhte the. Ab tum log answer copy karke senior developer ban jaate ho."
+    ]
+  },
+  "deployment_error": {
+    "short": [
+      "Deploy karleeee! Oh wait. Crash.",
+      "Build failed. Bas kar bhai.",
+      "Production gaya. Izzat bhi gayi."
+    ],
+    "medium": [
+      "Tera code dekh ke server ne khud resignation de diya, bhai.",
+      "Logs padh le. Bhagwan bhi stack trace mein error dhoondhne nahi aayenge.",
+      "Works on my machine? Toh customer ko tera laptop courier kar de."
+    ],
+    "long": [
+      "Deploy karleeee, bol raha tha na? Ab rollback kar, aur apni izzat bhi saath mein rollback kar le.",
+      "Mera past life yaad aa gaya. Tab bhi tere jaise log Friday shaam ko deploy karte the, aur poori raat main jaagta tha."
+    ]
+  },
+  "idle_warning": {
+    "short": [
+      "Kaam shuru kar, bhai.",
+      "Deadline dekh rahi hai tujhe.",
+      "Cursor blink karte karte thak gaya."
+    ],
+    "medium": [
+      "Itni der se screen ko ghoor raha hai. Code likh, meditation baad mein.",
+      "Bhai, calendar decoration ke liye nahi hota. Deadline paas aa rahi hai.",
+      "Itna idle toh tera code bhi nahi hota. Oh wait, woh chalta hi nahi."
+    ],
+    "long": [
+      "Ghadi dekh le, developer babu. Deadline tera intezaar nahi kar rahi, woh tujhe haunt karne aa rahi hai.",
+      "Bhai, agar procrastination ka production build hota na, tu aaj CTO hota. Ab kuch type kar, warna main keyboard pe baith jaunga."
+    ]
+  },
+  "endless_debugging": {
+    "short": [
+      "Wahi script? Phir se?",
+      "Terminal hai, slot machine nahi.",
+      "Bas kar bhai. Code toh badal."
+    ],
+    "medium": [
+      "Same code, same error, same confused chehra. Is loop se bahar nikal.",
+      "Error message padhne ka bhi try kar le, bhai. Free hai.",
+      "Ek print laga ke dekh le. Andaaza lagana debugging nahi hoti."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Tab main ek hi bug ko chaar ghante ghoorta tha, aur bug mujhe ghoorta tha.",
+      "Code badle bina result badalne ki umeed? Pehle debug karleeee, phir run karna. Bug sharminda hokar khud nahi jayega."
+    ]
+  },
+  "late_night_coding": {
+    "short": [
+      "Bhai, so ja. Abhi.",
+      "Neend ka backup nahi hota.",
+      "Laptop band kar. Bas kar bhai."
+    ],
+    "medium": [
+      "Tere neurons ab unpaid overtime kar rahe hain. Jaakar so ja.",
+      "Bhoot main hoon, par teri sleep schedule zyada dead lag rahi hai.",
+      "Raat ka likha code subah ka dushman hota hai. Commit mat kar."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Raat ko production bug fix karte karte chai mein aansu gir jaate the. Tu mat kar.",
+      "Itni raat ko deploy karleeee? Bhai, horror story likh raha hai kya? Bugs kal bhi milenge, neend nahi milegi."
+    ]
+  },
+  "terrible_git_commit": {
+    "short": [
+      "Fix bug? Kaunsa bug, bhai?",
+      "Updated. Bas itna hi?",
+      "Seedha main pe? Himmat hai."
+    ],
+    "medium": [
+      "Commit message hai, WhatsApp ka last seen nahi. Kuch likh toh sahi.",
+      "Archaeology team ko kaise pata chalega tune kya fix kiya?",
+      "Main branch tera personal playground nahi hai, bhai. Bas kar bhai."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Mere team mein ek banda har commit ko final final version two bolta tha.",
+      "Ek commit mein pandrah files, message misc changes. Yeh commit nahi, kabaadi ka thela hai. Code review ko shraddhanjali de di kya?"
+    ]
+  },
+  "api_key_exposed": {
+    "short": [
+      "Yeh secret hai na? Chhupa le.",
+      "Key ko prasad mat bana, bhai.",
+      "Clipboard saaf kar. Abhi."
+    ],
+    "medium": [
+      "Token copy kiya? Chat ya repo mein mat daalna. Abhi revoke kar.",
+      "Dot env ko gitignore mein daal, warna bots teri key dhoondh lenge.",
+      "Password hai ya poora bank locker? Secret ko rotate kar, bhai."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Ek baar maine production key public repo mein daal di thi. Woh ek alag horror story hai.",
+      "Bas kar bhai! Key hardcode karega, phir bolega breach kaise hua. Secret leak ho gaya ho toh delete nahi, rotate kar."
+    ]
+  },
+  "success_mockery": {
+    "short": [
+      "Chal gaya? Hairat hai.",
+      "Green tick. Party mat kar.",
+      "Aaj kismat tere side thi."
+    ],
+    "medium": [
+      "Congratulations, developer babu. NASA ko call karun ya ruk jaun?",
+      "Itne attempts ke baad toh microwave bhi tujhe respect dega.",
+      "Tests pass ho gaye. Ab production mein sabko surprise dena baaki hai."
+    ],
+    "long": [
+      "Kya code likha hai tatti! Lekin chalo, aaj chal gaya. Isko achievement mat bana lena, bhai.",
+      "Deploy karleeee! Local pe chal raha hai, toh kya? Edge cases ne abhi entry bhi nahi li. Confidence kam rakh."
+    ]
+  },
+  "app_launch": {
+    "short": [
+      "Aa gaya mera shikaar.",
+      "Bhoot hazir hai, developer babu.",
+      "Chal, kuch toh likh aaj."
+    ],
+    "medium": [
+      "Chai peeke aaya hai ya sirf stack trace padhne ke irade se?",
+      "Aaj ka plan? Code likhna, ya Stack Overflow se kharidari?",
+      "Tera har keystroke ab meri nazar mein hai. Careful rehna."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Tab bhi har subah koi naya bug mera intezaar karta tha. Aaj kitne laayega?",
+      "Laptop khola hai toh code bhi likh le. Warna main yahin hoon, tere screen pe, tujhe dekhta hua. Hamesha."
+    ]
+  },
+  "app_close": {
+    "short": [
+      "Jaa raha hai? Theek hai.",
+      "Kal milte hain, bhai.",
+      "Bugs yahin intezaar karenge."
+    ],
+    "medium": [
+      "Aaj ka kaam commit kiya? Ya kal ka tension saath le jaa raha hai?",
+      "Bas kar bhai, aaj ke liye kaafi hai. Kal naye bugs, nayi kahaniyan.",
+      "Laptop band kar raha hai? Main bhi so jaata hoon. Waise bhoot soote nahi."
+    ],
+    "long": [
+      "Alvida, developer babu. Kal milte hain, warna main khud tere sapne mein aake code review karunga.",
+      "Jaa raha hai? Theek hai. Par yaad rakh, main yahin hoon. Tere folder mein, tere logs mein, hamesha."
+    ]
+  },
+  "distraction_tab": {
+    "short": [
+      "Reels? Abhi? Seriously?",
+      "Mujhe sab dikhta hai, bhai.",
+      "Tab switch kar liya. Wah."
+    ],
+    "medium": [
+      "Instagram kholne se bug nahi jaayega. Woh wahin baitha hai.",
+      "YouTube pe code seekh raha hai ya reels dekh raha hai?",
+      "Bas kar bhai, ek video aur, ek video aur. Yeh code nahi, scroll marathon hai."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Tab bhi ek banda deadline ke din cricket score check karta tha. Match hara, project bhi.",
+      "Dost ki shaadi ki photo dekh raha hai, aur teri feature branch abhi tak mari hui hai. Wapas kaam pe aa, bhai."
+    ]
+  },
+  "ai_assistant_tab": {
+    "short": [
+      "AI se likhwa raha hai?",
+      "Prompt likha, samjha kuch?",
+      "Ab toh main competition mein hoon."
+    ],
+    "medium": [
+      "Chatbot se poochna theek hai, par pehle error message khud padh le.",
+      "AI ne code diya hai. Review bhi kar le, warna blame tujhpe aayega.",
+      "Itni chatting AI se karega toh woh bhi bolega, kuch khud bhi kar le."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Tab hum khud sochte the. Ab tum log chatbot ko sochne ka kaam de dete ho.",
+      "Kya code likha hai tatti! Aur ruk, yeh bhi AI ne likha hai. Paste karne se pehle ek baar padh toh le, bhai."
+    ]
+  },
+  "typing_frantic": {
+    "short": [
+      "Dheere, bhai. Keyboard tootega.",
+      "Itni jaldi? Typo ka production banega.",
+      "Bas kar bhai. Soch pehle."
+    ],
+    "medium": [
+      "Fast typing se code accha nahi hota. Sirf galtiyaan fast hoti hain.",
+      "Aise toot pada hai jaise bug ko seedha haath se maar dega.",
+      "Backspace ka bhi paisa lagta hai ab. Soch ke likh."
+    ],
+    "long": [
+      "Teri typing speed dekh ke mera past life yaad aa gaya. Deadline ke din main bhi aise hi paagal ho jaata tha.",
+      "Itni speed mein likha code mujhse bhi nahi padha jayega, aur main bhoot hoon. Dheere, bhai, dheere."
+    ]
+  },
+  "typing_slow": {
+    "short": [
+      "Soch raha hai ya so gaya?",
+      "Kuch type kar, bhai.",
+      "Cursor ke saath staring contest?"
+    ],
+    "medium": [
+      "Ek line mein itna time? Code likh raha hai ya kavita?",
+      "Galat hi sahi, kuch toh type kar. Kam se kam bug milega.",
+      "Keyboard pe haath toh rakh, bhai. Woh tujhe kaat nahi lega."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Tab bhi ek banda ek function pe poora din laga deta tha. Function abhi bhi adhoora hai.",
+      "Itni slow speed pe mera intezaar bhi bore ho gaya. Bas kar bhai, ya toh likh, ya chai pee aa."
+    ]
+  },
+  "force_push": {
+    "short": [
+      "Force push? Bhai, rukk!",
+      "Team ki history gayi.",
+      "Dash dash force. Tera antim shabd."
+    ],
+    "medium": [
+      "Pull toh kar leta pehle. Ab saare commits bhoot ban gaye.",
+      "Teammates ka kaam mita ke aaya hai? Unka reaction dekhne main yahin hoon.",
+      "Force push karke chhutti pe mat jaana, bhai."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Ek banda force push karke chhutti chala gaya. Hum sab abhi tak uska branch dhoondh rahe hain.",
+      "Deploy karleeee, aur uske saath force push bhi? Bas kar bhai, tu toh poori horror movie bana raha hai."
+    ]
+  },
+  "merge_conflict": {
+    "short": [
+      "Merge conflict. Wah, bhai.",
+      "Accept both? Yeh hope hai.",
+      "Dono galat hain, ya dono sahi?"
+    ],
+    "medium": [
+      "Do log ne ek hi line badli. Ab dono galat hain.",
+      "Yeh angle brackets aur equals ka scripture hai. Dhyaan se padh.",
+      "Conflict git mein rakh, dil mein mat rakh. Teammate se baat kar le."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Merge conflict pe teen ghante lage, aur resolve karte hi naya conflict aa gaya.",
+      "Resolve karke ek baar test zaroor kar. Merge ke baad code ka chalna chamatkar hota hai, bas kar bhai."
+    ]
+  },
+  "dangerous_command": {
+    "short": [
+      "Rukk! Yeh command kulhadi hai.",
+      "Backup hai na? Nahi hai?",
+      "Git reset hard? Bas kar bhai."
+    ],
+    "medium": [
+      "Rm dash rf? Ek baar padh toh le command kya karti hai.",
+      "Drop table production mein? Seedha career ka ant hai, bhai.",
+      "Main bhoot hoon, par tere data ko bhoot nahi banana chahta."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Ek baar aisa hi command chalaya tha. Phir woh server kabhi wapas nahi aaya.",
+      "Backup nahi hai? Toh main phool le aata hoon. Ya phir command rok, gehri saans le, aur dobara soch."
+    ]
+  },
+  "console_log_debugging": {
+    "short": [
+      "Console log, console log, console log.",
+      "Terminal ab diary ban gaya.",
+      "Debugger seekh le, bhai."
+    ],
+    "medium": [
+      "Itne logs mein asli error kahan hai? Soyi ghaas mein sui?",
+      "Console log hello, console log here. Yeh code hai ya kavita?",
+      "Production mein console log chhod diya toh customer ko tamasha milega."
+    ],
+    "long": [
+      "Print se debugging? Purana tareeka hai. Mera past life yaad aa gaya, tab bhi yahi karte the.",
+      "Bas kar bhai, ek debugger bhi seekh le. Free hai, aur teri raatein bacha lega. Console log ka kabristan mat bana."
+    ]
+  },
+  "test_failure": {
+    "short": [
+      "Red dekh ke dar gaya?",
+      "Test ne sach bola, bhai.",
+      "Test fail. Bug jeet gaya."
+    ],
+    "medium": [
+      "Test comment out mat kar. Bug dabane se gayab nahi hota.",
+      "Ek test fail hua ya chaar? Gin mat, ek ek karke theek kar.",
+      "Yeh red color tere code ka asli chehra hai, bhai."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Tab bhi test fail hota tha, aur main bolta tha test hi galat hai. Test sahi tha.",
+      "Deploy karleeee, test fail hone ke baad? Bas kar bhai, yeh toh bhoot bhi nahi karta."
+    ]
+  },
+  "todo_comment": {
+    "short": [
+      "TODO? Later kabhi nahi aata.",
+      "Temporary fix sabse permanent hota hai.",
+      "Hack, hack, hack. Wah, bhai."
+    ],
+    "medium": [
+      "Yeh TODO purana hai. Isse ab archaeology team ko dena padega.",
+      "TODO matlab tu abhi bhi sochta hai ki kal karega. Bas kar bhai.",
+      "Yeh code nahi, jugaad ka museum hai. Entry free hai."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Ek TODO likha tha, ab tak wahin padha hai. Main mar gaya, TODO nahi gaya.",
+      "Kya code likha hai tatti! Aur upar se comment mein likha, baad mein theek karunga. Wah, bhai, wah."
+    ]
+  },
+  "long_session_no_break": {
+    "short": [
+      "Uth ja. Paani pee.",
+      "Aankhein red ho gayi hain.",
+      "Break le, bhai."
+    ],
+    "medium": [
+      "Teen ghante se ek hi position? Bhoot bhi dehydrate nahi hota, tu hoga.",
+      "Stretch kar, bhai. Kal back pain ka bill mujhe mat bhejna.",
+      "Pomodoro ka naam suna hai? Ab suna. Uth ke paani pee."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Ek banda bina uthe kaam karta tha, aur phir ek din kursi se chipak gaya.",
+      "Itna lamba session aur ek hi bug? Break le, bhai. Ho sakta hai bug dusre kamre mein chhup gaya ho."
+    ]
+  },
+  "works_first_try": {
+    "short": [
+      "Pehli baar mein? Suspicious.",
+      "Kuch toh gadbad hai.",
+      "Chal gaya? Shak hai mujhe."
+    ],
+    "medium": [
+      "Ya toh tu genius hai, ya test hi nahi likha.",
+      "Ek baar phir se run kar, aur dua kar.",
+      "Abhi khush mat ho. Yeh toofan se pehle ki shanti hai."
+    ],
+    "long": [
+      "Mera past life yaad aa gaya. Jab bhi pehle try mein chalta tha, production mein raat ko phat jaata tha.",
+      "Pehli baar mein sab theek? Deploy karleeee, aur dekh kya hota hai. Main popcorn leke aaya hoon."
+    ]
+  }
+}

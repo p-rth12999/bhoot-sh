@@ -1,0 +1,354 @@
+{
+  "stack_overflow_copy": {
+    "short": [
+      "Ctrl C, Ctrl V. Wow, engineer.",
+      "Type something yourself, bro.",
+      "You're a photocopier now."
+    ],
+    "medium": [
+      "Pay Stack Overflow a salary. They wrote your whole project.",
+      "You copied the code. Now buy a subscription to understand it, bro.",
+      "Enough, bro. I haven't copy-pasted this much even in my past life."
+    ],
+    "long": [
+      "What garbage code is this! Wait, you didn't even write it. You stole it from the internet and never read the comments.",
+      "I just remembered my past life. We read documentation back then. Now you people paste answers and call yourselves senior developers."
+    ]
+  },
+  "deployment_error": {
+    "short": [
+      "Deploy it already! Oh. It crashed.",
+      "Build failed. Enough, bro.",
+      "Production is gone. So is your dignity."
+    ],
+    "medium": [
+      "The server took one look at your code and resigned.",
+      "Read the logs. Even God won't debug that stack trace for you.",
+      "Works on my machine? Then courier your laptop to the customer."
+    ],
+    "long": [
+      "Deploy it already, I told you! Now roll back the code, and roll back your dignity while you're at it.",
+      "I just remembered my past life. People like you deployed on Friday evenings, and I stayed awake all night."
+    ]
+  },
+  "idle_warning": {
+    "short": [
+      "Start working, bro.",
+      "The deadline is watching you.",
+      "Your cursor is tired of blinking."
+    ],
+    "medium": [
+      "You've been staring at the screen forever. Write code, meditate later.",
+      "A calendar is not decoration, bro. The deadline is close.",
+      "Even your code isn't this idle. Oh wait, it doesn't run at all."
+    ],
+    "long": [
+      "Check the clock, developer. The deadline won't wait for you. It's coming to haunt you instead.",
+      "If procrastination had a production build, you'd be CTO by now. Type something, or I'll sit on your keyboard."
+    ]
+  },
+  "endless_debugging": {
+    "short": [
+      "Same script again? Really?",
+      "It's a terminal, not a slot machine.",
+      "Enough, bro. Change the code."
+    ],
+    "medium": [
+      "Same code, same error, same confused face. Break the loop.",
+      "Try reading the error message, bro. It's free.",
+      "Add one print statement. Guessing isn't debugging."
+    ],
+    "long": [
+      "I just remembered my past life. I stared at one bug for four hours, and the bug stared back.",
+      "Expecting new results from the same code? Debug first, run later. The bug won't leave out of embarrassment."
+    ]
+  },
+  "late_night_coding": {
+    "short": [
+      "Go to sleep, bro. Now.",
+      "Sleep has no backup.",
+      "Close the laptop. Enough, bro."
+    ],
+    "medium": [
+      "Your neurons are doing unpaid overtime. Go sleep.",
+      "I'm the ghost here, but your sleep schedule looks deader.",
+      "Code written at night is the enemy of morning. Don't commit."
+    ],
+    "long": [
+      "I just remembered my past life. I cried into my chai fixing production bugs at night. Don't do that.",
+      "Deploy it at this hour? Are you writing a horror story? The bugs will be here tomorrow. Your sleep won't."
+    ]
+  },
+  "terrible_git_commit": {
+    "short": [
+      "'Fix bug'? Which bug, bro?",
+      "'Updated.' That's it?",
+      "Straight to main? Brave."
+    ],
+    "medium": [
+      "A commit message isn't a WhatsApp last seen. Write something.",
+      "How will future archaeologists know what you fixed?",
+      "Main isn't your personal playground. Enough, bro."
+    ],
+    "long": [
+      "I just remembered my past life. A guy on my team named every commit final final version two.",
+      "Fifteen files, message says misc changes. That's not a commit, that's a junk cart. Did you pay respects to code review?"
+    ]
+  },
+  "api_key_exposed": {
+    "short": [
+      "Is that a secret? Hide it.",
+      "Don't distribute your key like prasad.",
+      "Clear your clipboard. Now."
+    ],
+    "medium": [
+      "Copied a token? Keep it out of chats and repos. Revoke it now.",
+      "Put your env file in gitignore, or bots will find your key.",
+      "Password or bank locker? Rotate that secret, bro."
+    ],
+    "long": [
+      "I just remembered my past life. I once pushed a production key to a public repo. That's a whole separate horror story.",
+      "Enough, bro! You hardcode the key, then ask how the breach happened. If it leaked, don't just delete it. Rotate it."
+    ]
+  },
+  "success_mockery": {
+    "short": [
+      "It worked? I'm shocked.",
+      "Green tick. Don't celebrate.",
+      "Luck was on your side today."
+    ],
+    "medium": [
+      "Congratulations, developer. Should I call NASA, or wait?",
+      "After that many attempts, even a microwave would respect you.",
+      "Tests pass. Now surprise everyone in production."
+    ],
+    "long": [
+      "What garbage code is this! But fine, it works today. Don't turn it into an achievement.",
+      "Deploy it already! It works locally, so what? The edge cases haven't even arrived yet. Keep your confidence low."
+    ]
+  },
+  "app_launch": {
+    "short": [
+      "My prey has arrived.",
+      "The ghost is here, developer.",
+      "Come on, write something today."
+    ],
+    "medium": [
+      "Did you drink chai, or are you here just to read stack traces?",
+      "Today's plan? Write code, or shop on Stack Overflow?",
+      "Every keystroke of yours is under my watch now. Be careful."
+    ],
+    "long": [
+      "I just remembered my past life. A new bug waited for me every morning. How many will you bring today?",
+      "Laptop is open, so write some code. Otherwise I'm right here on your screen, watching you. Always."
+    ]
+  },
+  "app_close": {
+    "short": [
+      "Leaving? Fine.",
+      "See you tomorrow, bro.",
+      "The bugs will wait here."
+    ],
+    "medium": [
+      "Did you commit today's work, or are you carrying tomorrow's tension?",
+      "Enough for today, bro. Tomorrow, new bugs, new stories.",
+      "Closing the laptop? I'll sleep too. Though ghosts don't sleep."
+    ],
+    "long": [
+      "Goodbye, developer. See you tomorrow, or I'll visit your dreams and do the code review myself.",
+      "Leaving? Fine. But remember, I'm still here. In your folders, in your logs. Always."
+    ]
+  },
+  "distraction_tab": {
+    "short": [
+      "Reels? Right now? Seriously?",
+      "I see everything, bro.",
+      "Tab switched. Wow."
+    ],
+    "medium": [
+      "Opening Instagram won't make the bug go away. It's still sitting there.",
+      "Learning code on YouTube, or watching reels?",
+      "Enough, bro. One more video, one more video. This isn't code, it's a scroll marathon."
+    ],
+    "long": [
+      "I just remembered my past life. A guy checked cricket scores on deadline day. The match was lost, and so was the project.",
+      "You're looking at a friend's wedding photos while your feature branch lies dead. Get back to work, bro."
+    ]
+  },
+  "ai_assistant_tab": {
+    "short": [
+      "Getting AI to write it?",
+      "Wrote a prompt. Understood anything?",
+      "Now I have competition."
+    ],
+    "medium": [
+      "Asking the chatbot is fine. But read the error message yourself first.",
+      "The AI gave you code. Review it, or the blame lands on you.",
+      "Chat this much with AI and even it will say, do something yourself."
+    ],
+    "long": [
+      "I just remembered my past life. We thought for ourselves back then. Now you people outsource thinking to chatbots.",
+      "What garbage code is this! Wait, the AI wrote it. Read it once before you paste it, bro."
+    ]
+  },
+  "typing_frantic": {
+    "short": [
+      "Slow down. Keyboard will break.",
+      "So fast? Typos go to production.",
+      "Enough, bro. Think first."
+    ],
+    "medium": [
+      "Fast typing doesn't make good code. It only makes mistakes faster.",
+      "You're hitting keys like you'll kill the bug by hand.",
+      "Backspace costs money now. Think before you type."
+    ],
+    "long": [
+      "Your typing speed reminds me of my past life. On deadline day I went just as mad as you.",
+      "Code written at this speed can't even be read by me, and I'm a ghost. Slow down, bro, slow down."
+    ]
+  },
+  "typing_slow": {
+    "short": [
+      "Thinking, or sleeping?",
+      "Type something, bro.",
+      "A staring contest with the cursor?"
+    ],
+    "medium": [
+      "One line, this long? Are you writing code or poetry?",
+      "Even wrong code is fine. At least you'll find a bug.",
+      "Put your hands on the keyboard, bro. It won't bite."
+    ],
+    "long": [
+      "I just remembered my past life. A guy spent a whole day on one function. It's still unfinished.",
+      "At this speed, even my waiting got bored. Enough, bro. Either write something or go have chai."
+    ]
+  },
+  "force_push": {
+    "short": [
+      "Force push? Stop, bro!",
+      "The team's history is gone.",
+      "Dash dash force. Your last words."
+    ],
+    "medium": [
+      "You should've pulled first. Now every commit is a ghost.",
+      "Wiped your teammates' work? I'll stay to watch their reaction.",
+      "Don't force push and go on vacation, bro."
+    ],
+    "long": [
+      "I just remembered my past life. A guy force pushed and left for vacation. We're still searching for his branch.",
+      "Deploy it already, and force push too? Enough, bro. You're making a whole horror movie."
+    ]
+  },
+  "merge_conflict": {
+    "short": [
+      "Merge conflict. Wow, bro.",
+      "Accept both? That's hope.",
+      "Both wrong, or both right?"
+    ],
+    "medium": [
+      "Two people changed one line. Now both are wrong.",
+      "Angle brackets and equals signs. Ancient scripture. Read carefully.",
+      "Keep the conflict in git, not in your heart. Talk to your teammate."
+    ],
+    "long": [
+      "I just remembered my past life. A merge conflict took three hours, and resolving it created a new one.",
+      "Resolve it, then test once more. Code working after a merge is a miracle. Enough, bro."
+    ]
+  },
+  "dangerous_command": {
+    "short": [
+      "Stop! That command is an axe.",
+      "You have a backup, right?",
+      "Git reset hard? Enough, bro."
+    ],
+    "medium": [
+      "Rm dash rf? Read what that command does first.",
+      "Drop table in production? That's the end of your career, bro.",
+      "I'm the ghost here, but I don't want your data to become one."
+    ],
+    "long": [
+      "I just remembered my past life. I ran a command like that once. That server never came back.",
+      "No backup? Then I'll bring flowers. Or stop the command, breathe deeply, and think again."
+    ]
+  },
+  "console_log_debugging": {
+    "short": [
+      "Console log, console log, console log.",
+      "Your terminal is a diary now.",
+      "Learn a debugger, bro."
+    ],
+    "medium": [
+      "Where's the real error in all these logs? Needle in a haystack?",
+      "Console log hello, console log here. Is this code or poetry?",
+      "Leave console logs in production and customers get a free show."
+    ],
+    "long": [
+      "Debugging by print? Old school. I just remembered my past life, we did the same.",
+      "Enough, bro. Learn a debugger. It's free and will save your nights. Don't build a graveyard of console logs."
+    ]
+  },
+  "test_failure": {
+    "short": [
+      "Scared of the red?",
+      "The test told the truth, bro.",
+      "Test failed. Bug wins."
+    ],
+    "medium": [
+      "Don't comment out the test. Hiding a bug doesn't kill it.",
+      "One test failed, or four? Don't count. Fix them one by one.",
+      "That red is your code's real face, bro."
+    ],
+    "long": [
+      "I just remembered my past life. Tests failed and I said the test was wrong. The test was right.",
+      "Deploy it already, after a failing test? Enough, bro. Even a ghost wouldn't do that."
+    ]
+  },
+  "todo_comment": {
+    "short": [
+      "A TODO? Later never comes.",
+      "Temporary fixes live forever.",
+      "Hack, hack, hack. Wow, bro."
+    ],
+    "medium": [
+      "This TODO is ancient. Hand it to the archaeology team.",
+      "A TODO means you still think you'll do it tomorrow. Enough, bro.",
+      "This isn't code, it's a museum of jugaad. Entry is free."
+    ],
+    "long": [
+      "I just remembered my past life. I wrote one TODO and it's still sitting there. I died, the TODO didn't.",
+      "What garbage code is this! And the comment says I'll fix it later. Wow, bro, wow."
+    ]
+  },
+  "long_session_no_break": {
+    "short": [
+      "Get up. Drink water.",
+      "Your eyes are red, bro.",
+      "Take a break."
+    ],
+    "medium": [
+      "Three hours in one position? Even ghosts don't dehydrate. You will.",
+      "Stretch, bro. Don't send me your back pain bill tomorrow.",
+      "Heard of Pomodoro? Now you have. Get up and drink water."
+    ],
+    "long": [
+      "I just remembered my past life. A guy worked without standing up, and one day he stuck to the chair.",
+      "A session this long for one bug? Take a break, bro. Maybe the bug is hiding in another room."
+    ]
+  },
+  "works_first_try": {
+    "short": [
+      "First try? Suspicious.",
+      "Something's off.",
+      "It worked? I doubt it."
+    ],
+    "medium": [
+      "Either you're a genius, or you never wrote tests.",
+      "Run it once more, and pray.",
+      "Don't celebrate yet. That's the calm before the storm."
+    ],
+    "long": [
+      "I just remembered my past life. Whenever it worked the first time, production blew up at night.",
+      "Everything fine on the first try? Deploy it already, and see what happens. I brought popcorn."
+    ]
+  }
+}
