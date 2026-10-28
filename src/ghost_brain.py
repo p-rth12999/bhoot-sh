@@ -10,7 +10,7 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SENTRY_DSN = os.getenv("SENTRY_DSN", "").strip().strip('"').strip("'")
+SENTRY_DSN = os.getenv("SENTRY_DSN", "").strip()
 if SENTRY_DSN.startswith("http"):
     try:
         sentry_sdk.init(
@@ -25,7 +25,7 @@ if SENTRY_DSN.startswith("http"):
 class GhostBrain:
     def __init__(self, lang="hi"):
         self.lang = lang
-        self.model = os.getenv("OLLAMA_MODEL", "gemma2:2b").strip().strip('"')
+        self.model = os.getenv("OLLAMA_MODEL", "gemma2:2b").strip()
         self.scenarios = {
             "hi": self._load_json(BASE_DIR / "scenariohindi.json"),
             "en": self._load_json(BASE_DIR / "scenarioenglish.json")
@@ -48,18 +48,27 @@ class GhostBrain:
         cat_data = lang_data.get(category, {})
         lines = cat_data.get(tier, [])
 
-        # Look for exact tier audio first; if 'medium' doesn't have an MP3, fall back to 'short' MP3 so voice still plays!
-        audio_path = BASE_DIR / "assets" / "audio" / f"{self.lang}_{category}_{tier}_0.mp3"
-        fallback_short_audio = BASE_DIR / "assets" / "audio" / f"{self.lang}_{category}_short_0.mp3"
+        # Match pre-baked MP3s
+        exact_audio = BASE_DIR / "assets" / "audio" / f"{self.lang}_{category}_{tier}_0.mp3"
+        long_audio = BASE_DIR / "assets" / "audio" / f"{self.lang}_{category}_long_0.mp3"
+        short_audio = BASE_DIR / "assets" / "audio" / f"{self.lang}_{category}_short_0.mp3"
 
-        if not use_llm and lines:
-            if audio_path.exists():
-                return lines[0], str(audio_path)
-            elif fallback_short_audio.exists():
-                short_lines = cat_data.get("short", lines)
-                return short_lines[0], str(fallback_short_audio)
-            else:
-                return random.choice(lines), None
+        if use_llm:
+            # Few-shot dynamic Gemma 2 generation using the JSON lines as style training data!
+            ai_roast = self._generate_gemma_roast(category, tier, context, lines)
+            # Play the creepy long/short audio sting alongside the custom text if available
+            fallback_mp3 = str(long_audio) if long_audio.exists() else (str(short_audio) if short_audio.exists() else None)
+            return ai_roast, fallback_mp3
+
+        if lines:
+            if exact_audio.exists():
+                return lines[0], str(exact_audio)
+            elif tier == "medium" and long_audio.exists():
+                # Use medium text or long audio
+                return random.choice(lines), str(short_audio) if short_audio.exists() else None
+            elif short_audio.exists():
+                return lines[0], str(short_audio)
+            return random.choice(lines), None
 
         return self._generate_gemma_roast(category, tier, context, lines), None
 
@@ -70,21 +79,21 @@ class GhostBrain:
             span.set_data("model", self.model)
             try:
                 style = (
-                    "sarcastic Romanized Hinglish (use phrases like 'Bas kar bhai', 'Deploy karleeee')"
+                    "menacing, sarcastic Romanized Hinglish (mix Hindi & English naturally, use phrases like 'Bas kar bhai', 'Deploy karleeee')"
                     if self.lang == "hi"
-                    else "sarcastic Indian-English developer humor (use 'bro', 'deploy it already')"
+                    else "menacing, sarcastic Indian-English senior developer humor"
                 )
-                sample_ref = " | ".join(examples[:2]) if examples else ""
+                few_shot_block = "\n".join([f"- {ex}" for ex in examples[:3]]) if examples else "- Bas kar bhai!"
                 prompt = (
-                    f"You are bhoot.sh, the ghost of a frustrated senior developer haunting a coder's desktop. "
-                    f"Event triggered: {category} (Severity: {tier}). "
-                    f"Context snippet: '{context[:100]}'. "
-                    f"Reference vibe: {sample_ref}. "
-                    f"Write ONE short, punchy 1-2 sentence roast in {style}. No quotes, no markdown."
+                    f"You are bhoot.sh, a dark, terrifying phantom of a dead senior developer haunting a coder's IDE.\n"
+                    f"Trigger Event: {category} | Escalation Tier: {tier.upper()}\n"
+                    f"Live User Context: '{context[:100]}'\n"
+                    f"Here are examples of your exact tone and vocabulary:\n{few_shot_block}\n\n"
+                    f"Write ONE new, creepy, cutting 1-2 sentence roast in {style}. Output ONLY the raw dialogue line, no quotes."
                 )
                 res = ollama.generate(model=self.model, prompt=prompt)
-                reply = res.get("response", "").strip().strip('"')
+                reply = res.get("response", "").strip().strip('"').strip("'")
                 return reply if reply else (examples[0] if examples else "Bas kar bhai!")
             except Exception as e:
                 sentry_sdk.capture_exception(e)
-                return examples[0] if examples else "Bas kar bhai, Ollama bhi so gaya!"
+                return examples[0] if examples else "Bas kar bhai, Ollama bhi dar gaya!"
